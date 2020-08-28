@@ -1,0 +1,66 @@
+body{
+	font-family: 'Sriracha', cursive;
+}
+td{
+	border: 1px solid grey;
+	padding-bottom: 25px;
+	width: 25px;
+}
+
+table{
+	margin: 10px 0;
+}
+
+.visited{
+	background-color: #1fab36;
+	transition: background 0.5s;
+}
+.unvisited{
+	background-color: transparent;
+}
+.source{
+	/*background-color: yellow;*/
+	background-image: url("../static/src.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.des{
+	/*background-color: blue;*/
+	background-image: url("../static/des.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.path{
+	background-color: #d11d44;
+	/*background-image: url("../static/dot.png");*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	transition: background 0.3s;
+	/*border-radius: 15%;*/
+}
+
+.block{
+	background-color: #524d4d;
+	transition: background 0.3s;
+}
+.passage{
+	
+}
+
+#title-block{
+	display: flex;
+	justify-content: center;
+}
+
+#title{
+
+	text-align:center;
+	padding: 20px 10px 10px;
+	text-transform: uppercase;
+}
+
+#headIcon{
+	height: 50px;
+	width: auto;
+	align-self: center;
+}
